@@ -1,8 +1,12 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
 h1 {
-  font-family: fantasy;
+  font-family: 'Pacifico', cursive;
   margin-left: 8%;
-  color: #fafafa;
+  color: black;
   font-size: 30px;
+  padding-top: 15px;
 }
 .container {
   padding-right: 0;
@@ -10,31 +14,29 @@ h1 {
 nav {
   height: 64px;
   width: 100%;
-  background: #a9cedd;
+  background: white;
 }
 .search {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   height: 64px;
   width: 100%;
-  background-color: transparent;
+  background: white;
 }
 .searchInput {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   background-color: transparent;
-  border: 2px solid #fafafa;
+  border: 2px solid black;
   border-radius: 20px;
-  color: #fafafa;
+  color:black;
   padding: 0.5em 50em 0.5em 1.6em;
 }
 .searchInput::placeholder {
   color: #b2b2b2;
 }
 .searchButton {
-  color: white;
+  color: black;
   background-color: transparent;
-  padding-top: 10px;
-  font-size: 25px;
+  padding-top: 12px;
+  font-size: 27px;
   border: none;
   transition: .4s;
 } 
@@ -44,7 +46,6 @@ nav {
   border: none;
 }
 label {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   display: inline;
   margin-top: 1.2em;
@@ -54,9 +55,9 @@ label {
 
 select {
   font-weight: 700;
-  background: black;
-  color: whitesmoke;
+  color: black;
   padding: 0.7em 1.4em;
+  border: 2px solid black;
   border-radius: 10px;
   margin-top: 1.2em;
   margin-right: 0.5em;

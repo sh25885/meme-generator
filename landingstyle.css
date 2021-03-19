@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/2848492/pexels-photo-2848492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940s');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner:before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0 , 0.45);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.banner .navbar-brand {
+    position: absolute;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-top: 20px;;
+}
+.banner .info {
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+.banner .info h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 2px;
+}
+.banner .info p {
+    font-size: 1.9em;
+    font-style: italic;
+    color: #aaa;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+.banner .info a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: rgb(179, 6, 6);  
+    padding: 10px 20px; 
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.banner .info a:hover{
+    background: rgba(160, 5, 5, 0.973);
+}
+.fa-angle-double-right {
+    font-size: 25px;
+}
